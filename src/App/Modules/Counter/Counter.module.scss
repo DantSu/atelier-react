@@ -1,0 +1,28 @@
+@import "./src/App/variables";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  min-width: 150px;
+  padding: 15px;
+  border: 1px solid $colorPrimaryVariant;
+  border-radius: 15px;
+  margin-right: 45px;
+}
+
+.count {
+  font-family: LCD, sans-serif;
+  font-size: 6em;
+  text-align: center;
+  color: $colorOnPrimary;
+  margin-bottom: 15px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: stretch;
+}

@@ -1,17 +1,17 @@
+import Counter from "./Modules/Counter/Counter";
+import StopwatchStartButton from "./Modules/Stopwatch/StopwatchStartButton";
+import ModalProvider from "./Components/Modal/ModalProvider";
+
 import './App.scss'
 import styles from './App.module.scss'
-import Counter from "./Modules/Counter/Counter";
-import MyButton from "./Modules/MyButton/MyButton";
-import ModalProvider from "../Components/Modal/ModalProvider";
-
 
 function App() {
   return (
     <ModalProvider>
-      <div className={styles.appContainer}>
+      <main className={styles.appContainer}>
         <Counter/>
-        <MyButton/>
-      </div>
+        <StopwatchStartButton/>
+      </main>
     </ModalProvider>
   );
 }

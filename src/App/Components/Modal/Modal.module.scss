@@ -1,0 +1,21 @@
+@import "./src/App/variables";
+.background {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(black, 0.6);
+}
+
+.container {
+  padding: 10px;
+  border-radius: 15px;
+  border-top: 2px solid $colorPrimaryVariant;
+  border-bottom: 2px solid $colorPrimaryVariant;
+  background: $colorBackground;
+}

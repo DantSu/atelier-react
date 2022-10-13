@@ -1,0 +1,21 @@
+@import "./src/App/variables";
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+}
+
+.time {
+  font-family: LCD, sans-serif;
+  font-size: 6em;
+  font-weight: normal;
+  color: $colorOnPrimary;
+  padding: 15px 15px 15px 15px;
+}
