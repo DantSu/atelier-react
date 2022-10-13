@@ -1,11 +1,8 @@
 import {useState, useEffect} from 'react'
+import { secondToDisplay } from '../../Commons/Helpers/Time'
 import Modal from "../../Commons/Components/Modal/Modal";
 
 import styles from './Stopwatch.module.scss'
-
-const
-  zeroBefore = num => num < 10 ? '0' + num : num,
-  secondToDisplay = second => zeroBefore(Math.floor(second / 60)) +':' + zeroBefore(second % 60)
 
 function StopwatchModal({onClose}) {
   const
