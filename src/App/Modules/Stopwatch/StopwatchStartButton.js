@@ -7,7 +7,7 @@ function StopwatchStartButton () {
     [addModal, rmModal] = useModal(),
     onCLick = useCallback(
       () => {
-        const myModal = <StopwatchModal key="myModal" onClose={() => rmModal(myModal)}/>
+        const myModal = <StopwatchModal key="stopwatch-modal" onClose={() => rmModal(myModal)}/>
         addModal(myModal)
       },
       [rmModal, addModal]
