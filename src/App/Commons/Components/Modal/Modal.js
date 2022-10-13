@@ -1,5 +1,5 @@
 import {useCallback} from 'react'
-import {useClickStopPropagation} from "../../Lib/Hooks/Click";
+import {useClickStopPropagation} from "../../Hooks/Click";
 
 import styles from './Modal.module.scss'
 

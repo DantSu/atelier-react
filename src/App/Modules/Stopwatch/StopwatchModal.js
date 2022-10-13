@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react'
-import Modal from "../../Components/Modal/Modal";
+import Modal from "../../Commons/Components/Modal/Modal";
 
 import styles from './Stopwatch.module.scss'
 
@@ -25,7 +25,7 @@ function StopwatchModal({onClose}) {
 
   return <Modal onClose={onClose} className={styles.modal}>
     <h1 className={styles.title}>The Stopwatch !</h1>
-    <p className={styles.time}>{secondToDisplay(seconds)}</p>
+    <p className={play ? styles.time : styles.timePaused}>{secondToDisplay(seconds)}</p>
     <button onClick={() => setPlay(p => !p)}>{play ? 'Pause' : 'Play'}</button>
   </Modal>
 }

@@ -12,10 +12,13 @@
   text-align: center;
 }
 
-.time {
+.time, .timePaused {
   font-family: LCD, sans-serif;
   font-size: 6em;
   font-weight: normal;
   color: $colorOnPrimary;
   padding: 15px 15px 15px 15px;
+}
+.timePaused {
+  color: rgba($colorOnPrimary, 0.3);
 }

@@ -1,5 +1,5 @@
 import { useCallback } from 'react'
-import { useModal } from '../../Components/Modal/ModalHooks'
+import { useModal } from '../../Commons/Components/Modal/ModalHooks'
 import StopwatchModal from './StopwatchModal'
 
 function StopwatchStartButton () {
