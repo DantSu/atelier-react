@@ -58,3 +58,11 @@ button {
     background: $colorPrimaryVariant;
   }
 }
+
+input {
+  border-radius: 15px;
+  padding: 10px;
+  border: 2px solid $colorPrimary;
+  color: $colorPrimaryVariant;
+  background: $colorOnPrimary;
+}
